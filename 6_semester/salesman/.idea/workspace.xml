@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d8fda82-661e-4dcf-831d-7ffdb7e6f9ce" name="Default" comment="" />
-    <ignored path="life.iws" />
+    <list default="true" id="5bbfcd67-e06a-4ffb-b85a-73cd0529404e" name="Default" comment="" />
+    <ignored path="salesman.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -19,15 +19,15 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="life" />
+    <favorites_list name="salesman" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+            <state relative-caret-position="128">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,40 +35,107 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LifeCycle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/LifeCycle.java">
+      <file leaf-file-name="InitNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/InitNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-183">
-              <caret line="19" column="46" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Surface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entity/Surface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="70" column="31" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entity/Point.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            <state relative-caret-position="170">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
-                <element signature="e#225#226#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entity/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatrixReduction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/logic/MatrixReduction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalculateFines.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/logic/CalculateFines.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Algorithm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/logic/Algorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Link.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entity/Link.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding>
                 <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entity/Fine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="43" />
+              <folding>
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entity/Matrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3604">
+              <caret line="228" column="30" selection-start-line="228" selection-start-column="30" selection-end-line="228" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3544#3545#0" expanded="true" />
+                <element signature="e#3586#3587#0" expanded="true" />
+                <element signature="e#3625#3626#0" expanded="true" />
+                <element signature="e#3665#3666#0" expanded="true" />
+                <element signature="e#3710#3711#0" expanded="true" />
+                <element signature="e#3748#3749#0" expanded="true" />
+                <element signature="e#3791#3792#0" expanded="true" />
+                <element signature="e#3827#3828#0" expanded="true" />
+                <element signature="e#3890#3891#0" expanded="true" />
+                <element signature="e#3938#3939#0" expanded="true" />
+                <element signature="e#3997#3998#0" expanded="true" />
+                <element signature="e#4041#4042#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,12 +153,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/utils/InitSurface.java" />
-        <option value="$PROJECT_DIR$/src/entity/Point.java" />
-        <option value="$PROJECT_DIR$/src/utils/LifeCycle.java" />
-        <option value="$PROJECT_DIR$/src/entity/Surface.java" />
-        <option value="$PROJECT_DIR$/src/utils/Virus.java" />
+        <option value="$PROJECT_DIR$/src/utils/MatrixAdduction.java" />
+        <option value="$PROJECT_DIR$/src/utils/MatrixReduction.java" />
+        <option value="$PROJECT_DIR$/src/entity/TreeElement.java" />
+        <option value="$PROJECT_DIR$/src/utils/InitFirstMatrix.java" />
+        <option value="$PROJECT_DIR$/src/logic/TransformMatrix.java" />
+        <option value="$PROJECT_DIR$/src/logic/MatrixReduction.java" />
+        <option value="$PROJECT_DIR$/src/utils/InitTree.java" />
+        <option value="$PROJECT_DIR$/src/entity/Node.java" />
+        <option value="$PROJECT_DIR$/src/entity/Link.java" />
+        <option value="$PROJECT_DIR$/src/entity/Fine.java" />
+        <option value="$PROJECT_DIR$/src/logic/CalculateFines.java" />
+        <option value="$PROJECT_DIR$/src/entity/Matrix.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/entity/Tree.java" />
+        <option value="$PROJECT_DIR$/src/utils/InitNode.java" />
+        <option value="$PROJECT_DIR$/src/logic/Algorithm.java" />
       </list>
     </option>
   </component>
@@ -132,32 +209,31 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LyfeCycle" />
+              <option name="myItemId" value="salesman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LyfeCycle" />
+              <option name="myItemId" value="salesman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LyfeCycle" />
+              <option name="myItemId" value="salesman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LyfeCycle" />
+              <option name="myItemId" value="salesman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LyfeCycle" />
+              <option name="myItemId" value="salesman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -167,11 +243,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LyfeCycle" />
+              <option name="myItemId" value="salesman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LyfeCycle" />
+              <option name="myItemId" value="salesman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -185,11 +261,29 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LyfeCycle" />
+              <option name="myItemId" value="salesman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LyfeCycle" />
+              <option name="myItemId" value="salesman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="salesman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="salesman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -203,6 +297,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -210,7 +305,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="E:\program_files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../epam_projects/laba/epam.laba/java_project/src/main/java/by/epam/lab/newsmanagment/dao/impl/oracle/SQLNewsDAO.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../5_semester/BinaryTreeSearch/BinaryTreeSearch" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -224,7 +319,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="life" />
+      <module name="salesman" />
       <envs />
       <method />
     </configuration>
@@ -255,65 +350,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -459,7 +495,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="life" />
+      <module name="salesman" />
       <envs />
       <method />
     </configuration>
@@ -645,81 +681,128 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7d8fda82-661e-4dcf-831d-7ffdb7e6f9ce" name="Default" comment="" />
-      <created>1460826169163</created>
+      <changelist id="5bbfcd67-e06a-4ffb-b85a-73cd0529404e" name="Default" comment="" />
+      <created>1460970101457</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1460826169163</updated>
-      <workItem from="1460826180216" duration="20164000" />
-      <workItem from="1460967693233" duration="2317000" />
+      <updated>1460970101457</updated>
+      <workItem from="1460970109600" duration="10162000" />
+      <workItem from="1460999145723" duration="8460000" />
+      <workItem from="1461069540571" duration="6585000" />
+      <workItem from="1461157313501" duration="8209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22481000" />
+    <option name="totallyTimeSpent" value="33416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17391305" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18478261" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24743778" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1647145" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4937888" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/../.." />
-    </ignored-roots>
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="21" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="sf" />
-        <watch expression="j!=n &amp;&amp; i!=m " />
-        <watch expression="newGeneration" />
-        <watch expression="newGeneration" />
-        <watch expression="surface" />
-        <watch expression="0 = {int[5]@464} " />
-        <watch expression="newGeneration[0][0] = 1" language="JAVA" custom="" />
-        <watch expression="newGeneration" language="JAVA" custom="" />
-        <watch expression="sf" language="JAVA" custom="" />
-        <watch expression="newGeneration[0][0] = 1" language="JAVA" custom="" />
-        <watch expression="newGeneration" language="JAVA" custom="" />
-        <watch expression="sf" language="JAVA" custom="" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/InitNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/MatrixReduction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/CalculateFines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/Algorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -729,88 +812,269 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/LifeCycle.java">
+    <entry file="file://$PROJECT_DIR$/src/entity/Link.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Surface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state relative-caret-position="238">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding>
-            <element signature="e#225#226#0" expanded="true" />
             <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/InitSurface.java" />
-    <entry file="file://$PROJECT_DIR$/src/entity/Point.java">
+    <entry file="file://$PROJECT_DIR$/src/entity/Fine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state relative-caret-position="357">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
           <folding>
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Virus.java" />
-    <entry file="file://$PROJECT_DIR$/src/entity/Surface.java">
+    <entry file="file://$PROJECT_DIR$/src/entity/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="70" column="31" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/LifeCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../epam_projects/laba/epam.laba/java_project/src/main/java/by/epam/lab/newsmanagment/dao/impl/oracle/SQLNewsDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5617">
-          <caret line="401" column="35" selection-start-line="401" selection-start-column="35" selection-end-line="401" selection-end-column="35" />
+        <state relative-caret-position="2346">
+          <caret line="156" column="45" selection-start-line="156" selection-start-column="45" selection-end-line="156" selection-end-column="45" />
           <folding>
-            <marker date="1460650821206" expanded="true" signature="1513:2005" placeholder="SELECT NEWS_... NEWS" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3544#3545#0" expanded="true" />
+            <element signature="e#3586#3587#0" expanded="true" />
+            <element signature="e#3625#3626#0" expanded="true" />
+            <element signature="e#3665#3666#0" expanded="true" />
+            <element signature="e#3710#3711#0" expanded="true" />
+            <element signature="e#3748#3749#0" expanded="true" />
+            <element signature="e#3791#3792#0" expanded="true" />
+            <element signature="e#3827#3828#0" expanded="true" />
+            <element signature="e#3890#3891#0" expanded="true" />
+            <element signature="e#3938#3939#0" expanded="true" />
+            <element signature="e#3997#3998#0" expanded="true" />
+            <element signature="e#4041#4042#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/InitNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/MatrixReduction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/CalculateFines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Fine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding>
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2652">
+          <caret line="174" column="26" selection-start-line="174" selection-start-column="26" selection-end-line="174" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3544#3545#0" expanded="true" />
+            <element signature="e#3586#3587#0" expanded="true" />
+            <element signature="e#3625#3626#0" expanded="true" />
+            <element signature="e#3665#3666#0" expanded="true" />
+            <element signature="e#3710#3711#0" expanded="true" />
+            <element signature="e#3748#3749#0" expanded="true" />
+            <element signature="e#3791#3792#0" expanded="true" />
+            <element signature="e#3827#3828#0" expanded="true" />
+            <element signature="e#3890#3891#0" expanded="true" />
+            <element signature="e#3938#3939#0" expanded="true" />
+            <element signature="e#3997#3998#0" expanded="true" />
+            <element signature="e#4041#4042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/TransformMatrix.java" />
+    <entry file="file://$PROJECT_DIR$/src/entity/Fine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/program_files/jdk1.8.0_73/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="652" column="0" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/MatrixReduction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/CalculateFines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/InitNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3604">
+          <caret line="228" column="30" selection-start-line="228" selection-start-column="30" selection-end-line="228" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3544#3545#0" expanded="true" />
+            <element signature="e#3586#3587#0" expanded="true" />
+            <element signature="e#3625#3626#0" expanded="true" />
+            <element signature="e#3665#3666#0" expanded="true" />
+            <element signature="e#3710#3711#0" expanded="true" />
+            <element signature="e#3748#3749#0" expanded="true" />
+            <element signature="e#3791#3792#0" expanded="true" />
+            <element signature="e#3827#3828#0" expanded="true" />
+            <element signature="e#3890#3891#0" expanded="true" />
+            <element signature="e#3938#3939#0" expanded="true" />
+            <element signature="e#3997#3998#0" expanded="true" />
+            <element signature="e#4041#4042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

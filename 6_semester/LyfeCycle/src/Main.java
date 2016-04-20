@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String... args) throws CloneNotSupportedException, InterruptedException {
 
-        Surface sf = new Surface(15,16);
+        Surface sf = new Surface(50,50);
 
         //Мигалка, триплет 1
         //Point[] points = new Point[]{new Point(3,2), new Point(3,3), new Point(3,4)};
@@ -54,14 +54,14 @@ public class Main {
                 new Point(12,11), new Point(12,12), new Point(11,12)};*/
 
         //Часы, период 4
-        Point[] points = new Point[]{new Point(6,2), new Point(6,3), new Point(7,2), new Point(7,3),
+        /*Point[] points = new Point[]{new Point(6,2), new Point(6,3), new Point(7,2), new Point(7,3),
                                         new Point(6,5), new Point(7,5), new Point(8,5), new Point(9,5), new Point(7,6),
                                         new Point(10,6), new Point(10,7), new Point(10,8), new Point(10,9), new Point(9,7), new Point(8,8),
                                         new Point(12,6), new Point(12,7), new Point(13,6), new Point(13,7),
                                         new Point(9,10), new Point(8,10), new Point(7,10), new Point(6,10),
                                         new Point(9,12), new Point(9,13), new Point(8,12), new Point(8,13),
                                         new Point(5,9), new Point(5,8), new Point(5,7), new Point(5,6),
-                                        new Point(3,8), new Point(3,9), new Point(2,8), new Point(2,9)};
+                                        new Point(3,8), new Point(3,9), new Point(2,8), new Point(2,9)};*/
 
         //П-гептамино, на 32 шаге превращается в пульсар с периоддом 3
         //Чтобы увидеть результат, нужно изменить размерность surface 30 на 30 и время "сна" на 1000
@@ -77,7 +77,7 @@ public class Main {
 
         //Вирус, если его поставить , касаясь двух граней, то популяция изменится, если 4ёх - выживет
         //Изменить размерность surface 50 на 50
-        /*Point[] points = new Point[]{new Point(14,15), new Point(14,16), new Point(15,15), new Point(15,16),
+        Point[] points = new Point[]{new Point(14,15), new Point(14,16), new Point(15,15), new Point(15,16),
                 new Point(14,18), new Point(14,19), new Point(15, 18), new Point(15,19),
                 new Point(14,21), new Point(14, 22), new Point(15,21), new Point(15,22),
 
@@ -89,14 +89,14 @@ public class Main {
                 new Point(20,18), new Point(20,19), new Point(21, 18), new Point(21,19),
                 new Point(20,21), new Point(20, 22), new Point(21,21), new Point(21,22),
 
-                //new Point(16,16)
-                new Point(16,17)};  *//* вирус */
+                new Point(16,16)};
+                //new Point(16,17)};  /* вирус */
 
         sf.setConfiguration(points);
         System.out.println(sf);
 
         new Thread(sf).start();
-        Thread.sleep(10);
+        Thread.sleep(500);
         sf.stopThread();
 
 
