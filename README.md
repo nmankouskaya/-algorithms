@@ -1,1 +1,2 @@
-Labs 1-8
+Algorythm labs
+BSU 3 course 
